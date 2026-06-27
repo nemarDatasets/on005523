@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Spatial Memory of Object Locations with Open-Loop Stimulation at Encoding",
-  "description": "This dataset contains intracranial electrophysiological recordings and behavioral data from a spatial navigation memory task with open-loop brain stimulation during encoding. Participants learned object locations through guided navigation and subsequently recalled them during self-navigation test phases. The study employed electrical stimulation of hippocampal and entorhinal cortex regions during the learning phase, with stimulation parameters systematically varied across counterbalanced trial blocks to investigate the effects of targeted brain stimulation on spatial memory encoding.",
-  "methods_description": "Intracranial EEG recordings were collected from multiple clinical sites during a spatial navigation task consisting of 50 trials per session (2 practice, 48 experimental). Each trial included two learning phases with guided navigation (1s turn + 3s drive + 1s pause) followed by a test phase with self-navigation. Open-loop electrical stimulation was delivered to single electrodes in the hippocampus and entorhinal cortex during learning trials, with stimulation parameters including amplitude, pulse frequency, pulse width, and pulse count recorded in behavioral event files. Recordings were acquired using Blackrock (250 nV units) and Medtronic (0.1 µV units) systems with monopolar and bipolar referencing schemes.",
+  "description": "This dataset contains intracranial electrophysiological recordings and behavioral data from a spatial navigation memory task with open-loop brain stimulation during encoding. Participants learned object locations through guided navigation and subsequently recalled them during self-navigation test phases. The study employed electrical stimulation of hippocampal and entorhinal cortex electrodes during learning trials, with stimulation parameters systematically varied across counterbalanced trial blocks to investigate the effects of targeted brain stimulation on spatial memory encoding. This dataset is an open-loop stimulation variant of the YC1 dataset (ds005522).",
+  "methods_description": "Intracranial EEG recordings were collected from clinical sites using Blackrock and Medtronic systems during a spatial navigation task. Each session contained 50 trials (2 practice, 48 experimental) with a learning phase (two guided navigation trials per object location) and test phase (self-navigation recall). Open-loop electrical stimulation was delivered to single electrodes in hippocampus and entorhinal cortex during learning trials only, with stimulation parameters including amplitude, pulse frequency, pulse width, and pulse count recorded in behavioral event files. Stimulation and non-stimulation trials were alternated and counterbalanced with reflected object and starting positions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -34,6 +34,9 @@
     },
     {
       "term": "open-loop stimulation"
+    },
+    {
+      "term": "clinical recordings"
     }
   ],
   "related_identifiers": [
